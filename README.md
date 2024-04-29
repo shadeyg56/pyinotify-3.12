@@ -1,4 +1,8 @@
-# Pyinotify
+# Pyinotify, for Python 3.12+
+
+This fork was created so that `pyinotify` can be used on Python 3.12 and up. 
+As of Python 3.12, the [asyncore libary](https://github.com/python/cpython/issues/72719) and a few others were removed.
+Since this was really only included in `pynotify` for backwards compability, the `asyncore` functionality has been completely removed, since Python 3 has `asyncio`
 
 * License          : MIT
 * Project URL      : [http://github.com/seb-m/pyinotify](http://github.com/seb-m/pyinotify)
